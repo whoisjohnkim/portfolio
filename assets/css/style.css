@@ -4,6 +4,10 @@ body {
     font-family: 'Signika', sans-serif;
 }
 
+p {
+    font-size: 20px;
+}
+
 
 .centerHeader {
     text-align: center;
@@ -15,26 +19,17 @@ body {
 
 #portrait {
     width: 100%;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 #aboutMeHeader {
     margin-top: 80px;
 }
 
-#aboutMe {
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 20px;
-}
 
 #aboutMeBox {
     margin-top: 20px;
     margin-bottom: 50px;
+    padding: 30px;
     background: white;
     border: solid 1px darkgrey;
 }
