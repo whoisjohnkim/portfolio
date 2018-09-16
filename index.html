@@ -34,14 +34,13 @@
         <h3 id="aboutMeHeader"class="centerHeader">About Me</h3>
         <div class="row" id="aboutMeBox">
             <!-- About Me -->
-
             <div class="col s12 m6 l4">
                 <img id="portrait" src="assets/images/portrait.JPG">
             </div>
             <div class="col s12 m6 l8" id="aboutMe">
 
-                <p>My name is John Hyunmin Kim and I graduated from the University of Michigan with a degree in Biophysics and a minor in Computer Science. Throughout my years of working as a research assistant in a Neurology lab at the University of Michigan, I was able to cultivate my love for problem solving and developed my ability to create clean and efficient protocols.</p>
-                <p>Although my previous experience has been with research, my current passion is web development. Web development is an exciting field to me with its challenges of handling vast amounts of data, writing clean and efficient code, and finding ways to always improve upon your current product. I have experience with web development tech such as javascript, Node.js, React.js, HTML, CSS, Python, sqlite, and mySQL along with experience with algorithms and object-oriented programming through my education at the University of Michigan learning C++.</p>
+                <p>My name is John Hyunmin Kim and I graduated from the University of Michigan with a degree in Biophysics and a minor in Computer Science. I am currently a web developer with a passion for clean, optimized code and a background in scientific research. Throughout my years of working as a research assistant in a Neurology lab at the University of Michigan, I was able to cultivate my love for problem solving and developed my ability to create clean and efficient protocols.</p>
+                <p>Web development is an exciting field to me with its challenges of handling vast amounts of data, writing clean and efficient code, and finding ways to always improve upon your current product. I have experience with coding languages and web development tech such as javascript, Node.js, Express.js, Handlebars.js, Sequelize.js, React.js, HTML5, CSS3, Python, sqlite, and mySQL along with experience with algorithms and object-oriented programming through my education at the University of Michigan learning C++.</p>
                 <br>
                 <br>
                 <br>
@@ -56,6 +55,24 @@
         <div class="row" id="projectBox">
             <h3 id="projectHeader"class="centerHeader">Projects</h3>
             <hr>
+            <!-- Focus App -->
+            <div class="col s12 m4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator projectimg" src="assets/images/focus.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Focus<i class="material-icons right">details</i></span>
+                        <p><a target="_blank"href="https://limitless-basin-61713.herokuapp.com/">Deployed Site</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Description<i class="material-icons right">close</i></span>
+                        <p>Developed a web app to improve productivity of users by providing them with the 52/17 optimized studying/break timing. Users are provided with studying music options including a Spotify playlist which the user can update using the Spotify API. Made utilizing Node.js, Express.js, Handlebars.js, mySQL, Sequelize, and other technologies.</p>
+                        <a href="https://github.com/whoisjohnkim/project2team5">Github Page</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Tender App -->
             <div class="col s12 m4">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
@@ -72,6 +89,27 @@
                     </div>
                 </div>
             </div>
+            <!-- Eat da Burger -->
+            <div class="col s12 m4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator projectimg" src="assets/images/burger.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Eat Da Burger<i class="material-icons right">details</i></span>
+                        <p><a target="_blank"href="https://fast-tundra-94300.herokuapp.com/">Deployed Site</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Description<i class="material-icons right">close</i></span>
+                        <p>Built with Node.js, Express.js, Handlebars.js, MySQL, Heroku, and JawsDB to take in user inputted burgers names and to store each entry in a database and rendered onto the page based on eaten status.</p>
+                        <a href="https://github.com/whoisjohnkim/burger">Github Page</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Friend Finder App -->
             <div class="col s12 m4">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
@@ -83,11 +121,12 @@
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Description<i class="material-icons right">close</i></span>
-                        <p>A finding app allowing the user to find the closest matching friend depending on the results from a survey. Upon finishing the survey, the user will be shown the name and picture of their friend match. The user information will also be stored for other users' potential matches. Utilizes node, express, body-parser, path, ajax, and jquery. Deployed on heroku</p>
+                        <p>A friend finding app allowing the user to find the closest matching friend depending on the results from a survey. Upon finishing the survey, the user will be shown the name and picture of their friend match. The user information will also be stored for other users' potential matches. Utilizes node, express, body-parser, path, ajax, and jquery. Deployed on heroku</p>
                         <a href="https://github.com/whoisjohnkim/friendFinder">Github Page</a>
                     </div>
                 </div>
             </div>
+            <!-- Bamazon Manager App -->
             <div class="col s12 m4">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
@@ -104,75 +143,74 @@
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="row">
-            <div class="col s12 m4">
-                    <div class="card">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator projectimg" src="assets/images/liri.jpg">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Liri Node CLI<i class="material-icons right">details</i></span>
-                            <p><a  target="_blank"href="https://github.com/whoisjohnkim/liri-node-app">Github Page</a></p>
-                        </div>
-                        <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">Description<i class="material-icons right">close</i></span>
-                            <p>LIRI: Language Interpretation and Recognition Interface. A command line node application made to take user commands to look up a concert venue for an artist, song information, or movie information. Utilized the bandsintown API, spotify API, and OMBD API along with also utilizing npm packages including fs, request, and moment.</p>
-                            <a href="https://github.com/whoisjohnkim/liri-node-app">Github Page</a>
-                        </div>
-                    </div>
-                </div>
+            <!-- LIRI APp -->
             <div class="col s12 m4">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator projectimg" src="assets/images/rpg.jpg">
+                        <img class="activator projectimg" src="assets/images/liri.jpg">
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Big Ten RPG<i class="material-icons right">details</i></span>
-                        <p><a  target="_blank"href="https://whoisjohnkim.github.io/unit-4-game/">Deployed Site</a></p>
+                        <span class="card-title activator grey-text text-darken-4">Liri Node CLI<i class="material-icons right">details</i></span>
+                        <p><a  target="_blank"href="https://github.com/whoisjohnkim/liri-node-app">Github Page</a></p>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Description<i class="material-icons right">close</i></span>
-                        <p>Utilize jquery in order to manipulate HTML elements to create a Big Ten Mascot RPG fighting game.</p>
-                        <a href="https://github.com/whoisjohnkim/unit-4-game">Github Page</a>
+                        <p>LIRI: Language Interpretation and Recognition Interface. A command line node application made to take user commands to look up a concert venue for an artist, song information, or movie information. Utilized the bandsintown API, spotify API, and OMBD API along with also utilizing npm packages including fs, request, and moment.</p>
+                        <a href="https://github.com/whoisjohnkim/liri-node-app">Github Page</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Train Schedule -->
+            <div class="col s12 m4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator projectimg" src="assets/images/train.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Train Schedule<i class="material-icons right">details</i></span>
+                        <p><a  target="_blank"href="https://whoisjohnkim.github.io/trainTime/">Deployed Site</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Description<i class="material-icons right">close</i></span>
+                        <p>A Train program made to take user input and to display a schedule containing all trains and information about each train including name, destination, time to next train, and time of next train. Made utilizing Moment.js and Google Firebase to keep track of previous entries.</p>
+                        <a href="https://github.com/whoisjohnkim/trainTime">Github Page</a>
                     </div>
                 </div>
             </div>
 
-            <div class="col s12 m4">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator projectimg" src="assets/images/trivia.jpg">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">NBA Trivia<i class="material-icons right">details</i></span>
-                        <p><a  target="_blank"href="https://whoisjohnkim.github.io/TriviaGame/">Deployed Site</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Description<i class="material-icons right">close</i></span>
-                        <p>Utilized timeouts and jquery to make a NBA trivia game with a timer for the questions. Also makes use of the GIPHY API in order to display GIFs after each answered question.</p>
-                        <a href="https://github.com/whoisjohnkim/TriviaGame">Github Page</a>
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
-        <div class="row">
+            <!-- Big Ten RPG Game -->
             <div class="col s12 m4">
                     <div class="card">
                         <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator projectimg" src="assets/images/manager4.png">
+                            <img class="activator projectimg" src="assets/images/rpg.jpg">
                         </div>
                         <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Train Schedule<i class="material-icons right">details</i></span>
-                            <p><a  target="_blank"href="https://whoisjohnkim.github.io/trainTime/">Deployed Site</a></p>
+                            <span class="card-title activator grey-text text-darken-4">Big Ten RPG<i class="material-icons right">details</i></span>
+                            <p><a  target="_blank"href="https://whoisjohnkim.github.io/unit-4-game/">Deployed Site</a></p>
                         </div>
                         <div class="card-reveal">
                             <span class="card-title grey-text text-darken-4">Description<i class="material-icons right">close</i></span>
-                            <p>A Train program made to take user input and to display a schedule containing all trains and information about each train including name, destination, time to next train, and time of next train. Made utilizing Moment.js and Google Firebase to keep track of previous entries.</p>
-                            <a href="https://github.com/whoisjohnkim/trainTime">Github Page</a>
+                            <p>Utilized jquery in order to manipulate HTML elements to create a Big Ten Mascot RPG fighting game. The user is able to select his/her character and can choose his enemy and battle them until either all enemies are defeated or the user's character is defeated.</p>
+                            <a href="https://github.com/whoisjohnkim/unit-4-game">Github Page</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- NBA Trivia -->
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator projectimg" src="assets/images/trivia.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">NBA Trivia<i class="material-icons right">details</i></span>
+                            <p><a  target="_blank"href="https://whoisjohnkim.github.io/TriviaGame/">Deployed Site</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Description<i class="material-icons right">close</i></span>
+                            <p>Utilized timeouts and jquery to make a NBA trivia game. The user's answers are recorded and displayed at the end of the trivia. Also makes use of the GIPHY API in order to display GIFs after each answered question.</p>
+                            <a href="https://github.com/whoisjohnkim/TriviaGame">Github Page</a>
                         </div>
                     </div>
                 </div>
